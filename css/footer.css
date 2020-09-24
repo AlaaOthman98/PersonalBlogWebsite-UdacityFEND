@@ -1,0 +1,13 @@
+.blog-footer {
+  background: #fbebcf;
+  color: #741b47;
+  font-weight: bold;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-footer span {
+  font-family: "Sofia", cursive;
+}

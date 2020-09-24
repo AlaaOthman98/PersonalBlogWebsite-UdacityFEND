@@ -1,0 +1,7 @@
+@import "globals.css";
+@import "header.css";
+@import "main.css";
+@import "footer.css";
+@import "mobile.css";
+/*==*/
+@import "blog-post-styles/article.css";

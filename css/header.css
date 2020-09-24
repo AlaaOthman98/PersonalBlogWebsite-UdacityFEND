@@ -1,0 +1,19 @@
+.blog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  height: 5rem;
+  background: linear-gradient(to right, #d5a6bd, #741b47);
+}
+
+.blog-header .subscribe-link,
+.blog-header .search-icon {
+  color: #fbebcf;
+  cursor: pointer;
+}
+
+.blog-header .blog-title {
+  color: white;
+  font-family: "Sofia", cursive;
+}

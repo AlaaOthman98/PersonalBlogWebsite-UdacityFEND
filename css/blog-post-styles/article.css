@@ -1,0 +1,84 @@
+.blog-article {
+  background: linear-gradient(to right, #d5a6bd, #741b47);
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article-card {
+  background-color: #fbebcf;
+  min-width: 20rem;
+  max-width: 50rem;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 10px -2px #1e1e1e;
+  margin-bottom: 2rem;
+}
+
+.article-card .article-title {
+  margin: 2rem 0 1rem 0;
+}
+
+.article-card p {
+  margin: 1.5rem 0;
+}
+
+.article-card hr {
+  color: red;
+}
+
+.article-card h1,
+.article-card h2,
+.article-card h3,
+.link-in-article {
+  color: #741b47;
+}
+
+.article-card ul {
+  list-style: none;
+}
+
+.article-card ul li::before {
+  content: "\2022";
+  color: #741b47;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+.article-card ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.article-card li::before {
+  content: counter(li);
+  color: #741b47;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1rem;
+}
+
+.article-card li {
+  counter-increment: li;
+}
+
+/*===*/
+
+.share-and-navigation-buttons h4,
+.share-and-navigation-buttons a {
+  color: #fbebcf;
+}
+
+.share-and-navigation-buttons h4 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.share-and-navigation-buttons .icon-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 5rem;
+}
