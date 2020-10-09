@@ -2,6 +2,21 @@
 @import "header.css";
 @import "main.css";
 @import "footer.css";
-@import "mobile.css";
 /*==*/
 @import "blog-post-styles/article.css";
+
+@media (max-width: 1024px) {
+  .about-section {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .about-text {
+    padding-bottom: 2rem;
+  }
+
+  .blog-cards-section .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
